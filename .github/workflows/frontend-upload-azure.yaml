@@ -23,7 +23,7 @@ jobs:
         azcliversion: 2.0.72
         inlineScript: |
             az account set --subscription development
-            az storage blob upload-batch --account-name cloudresume -d '$web' -s frontend/
+            az storage blob upload-batch --account-name cloudresume1 -d '$web' -s frontend/
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
