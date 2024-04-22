@@ -28,6 +28,7 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
+           az account set --subscription e0d78ef1-fb8e-47b6-a7b4-9022a0dda995
            az cdn endpoint purge --content-paths  "/*" --profile-name cloudresumecdn --name cloudresume --resource-group cloudresume
 
   # Azure logout 
