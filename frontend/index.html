@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jashan Sandhu</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./style.css">
+    <script src="main.js"></script>
+    <link rel="icon" type="image/png" href="/assets/favicon.png">
+</head>
+
+<body>
+
+    <!-- header area -->
+    <header id="header">
+        <div class="row m-0">
+            <div class="col-3 bgcolor-black">
+                <nav class="primary-nav navbar-expand-md">
+                    <div class="site-title text-center text-light py-5">
+                        <a href="#" class="navbar-brand font-staat font-size-40">JS</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="#home" class="nav-item nav-link text-white-50 font-os font-size-16 active">Home</a>
+                        <a href="#about_me"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">About</a>
+                        <a href="#awards"
+                            class="nav-item nav-link text-white-50 font-os font-size-16 active">Achievements</a>
+                        <a href="#footer" class="nav-item nav-link text-white-50 font-os font-size-16 active">Contact
+                            Me</a>
+                        <p class="nav-item nav-link text-white-50 font-os font-size-16 active">Visitors: <a
+                                id="counter"></a></p>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <button class="toggle-button"><span class="fas fa-bars fa-2x"></span></button>
+    </header>
+    <!-- #header area -->
+
+    <main id="site-main">
+        <div class="row m-0">
+            <div class="col-md-9 offset-md-3 px-0">
+
+                <!-- site-banner area -->
+                <section class="site-banner bg-light" id="home">
+                    <div class="banner-area">
+                        <div class="author text-center">
+                            <div class="author-img"></div>
+                            <h1 class="text-black font-staat font-size-40 text-uppercase py-3">Jashan Sandhu</h1>
+                            <h5 class="text-black font-ram font-size-27">I'm a <span id="typed"></span></h5>
+                        </div>
+                    </div>
+                </section>
+                <!-- #site-banner area -->
+
+                <!-- about me area -->
+                <section class="about px-4 my-5" id="about_me">
+                    <div class="me py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">information</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">About Me</h1>
+                    </div>
+                    <div class="row m-0">
+                        <div class="col-sm-5 pl-0">
+                            <img src="./assets/banner.png" alt="profile image" class="img-fluid">
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="text-uppercase font-os font-size-16 text-muted">About Me</h6>
+                            <h5 class="font-ram font-size-20 py-2">I'm Jashan Sandhu & a <span id="typed_2"></span></h5>
+                            <p class="font-ram text-black-50 py-2">
+                                I am a dynamic Cloud professional with a passion for crafting robust and scalable cloud solutions. Proficient in translating complex requirements into innovative and cost-effective cloud architectures, with a keen eye for security, reliability, and performance.
+                            </p>
+                            <div class="d-flex flex-row flex-wrap justify-content-between py-4">
+                                
+                                <div class="d-flex flex-column">
+                                    <p class="font-ram"><b>Masters: </b><span class="text-black-50"> Information Systems Security</span></p>
+                                </div>
+                            </div>
+                            <button type="submit" onclick="window.open('/assets/Jashan-Sandhu.pdf')"
+                                class="btn btn-dark text-uppercase mr-3">Download CV</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- #about me area -->
+
+                <!-- ability -->
+
+                <section class="resume-section" id="skills">
+                    <div class="resume-section-content">
+                        <h2 class="mb-5">Skills</h2>
+                        <div class="subheading mb-3">Programming Languages & Tools</div>
+                        <ul class="list-inline dev-icons">
+                            <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-github"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-gitlab"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-angular"></i></li>                        
+                            <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-aws"></i></li>                        
+                            <li class="list-inline-item"><i class="fab fa-docker"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-jenkins"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                            <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        </ul>
+                        <div class="subheading mb-3">Workflow</div>
+    
+
+
+
+                <section class="skill px-4 py-5 bg-light" id="services">
+                    <div class="ability py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Ability</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Skills</h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6 pl-4">
+                            
+                            <ul class="list-inline dev-icons">
+                                <li class="list-inline-item">
+                                    <i class="fab fa-html5"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-css3-alt"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-node-js"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-aws"></i>
+                                </li>
+                                <li class="list-inline-item">
+                                    <i class="fab fa-azure"></i>
+                                </li>
+                            </ul>
+                        </div>
+                </section>
+                <!-- #ability -->
+
+
+                <!-- awards -->
+                <section class="awards px-4 py-5" id="awards">
+                    <div class="do py-5">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">What I have achieved</h5>
+                        <h1 class="text-uppercase font-staat font-size-34"><i class="fas fa-award"></i>Certifications</h1>
+                    </div>
+                    <div class="w-100">
+
+                        <ul class="fa-ul mb-0 font-ram font-size-16 text-black-50 pb-3">
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Certified Kubernetes Administrator (CKA)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                Microsoft Certified - Azure Solutions Architect Expert
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS Certified - Solutions Architect Professional
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS Certified - Advanced Network Specialty
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                AWS Certified - Solutions Architect Associate
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                HashiCorp Certified - Terraform Associate
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                RedHat Certified System Administrator (RHCSA)
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                VMWare Certified Professional - VCP DCV 6.5
+                            </li>
+                            <li>
+                                <i class="fa-li fa fa-trophy text-warning"></i>
+                                VMWare Certified Professional - NSX-T 2.4
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- #services -->
+
+                <!-- work -->
+                <section class="work py-5 px-4 bg-light" id="portfolio">
+                    <div class="py-3">
+                        <h5 class="text-uppercase font-os font-size-16 text-muted">Porfolio</h5>
+                        <h1 class="text-uppercase font-staat font-size-34">Work Experience</h1>
+                        <div class="row">
+                            <div class="col-sm-6 pl-4">
+                                <h5 class="text-uppercase font-staat font-size-20"> Rackspace Technology </h5>
+                                <p class="font-ram font-size-16 text-muted pb-0"> Cloud Consultant/Engineer &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;June 2020 - Present</p>
+                                <p class="font-ram font-size-16 text-black-50 pb-0">
+                                    <h5 class="font-ram font-size-16 font-size-16 text-muted"><li>
+                                    Worked on CI/CD customized Golden image pipeline, using CIS as base &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;image for RedHat, Windows, Ubuntu using Jenkins and Terraform with AWS &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;EC2 Image builder.<br></li>
+                                    <li>Created Infrastructure on green field environments using Terraform and &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;proficient in configuring and optimizing AWS resources to meet project &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;requirements.<br></li>
+                                    <li>Orchestrated DevOps tools i.e. Jenkins, GitHub, BitBucket for CI/CD.<br></li>
+                                    <li>Collaborated with development teams to containerize applications using &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Docker and orchestrate them with Kubernetes.<br></li>
+                                    <li>Monitored threshold and configuring alerts with webhooks on PagerDuty &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;24x7 for week.<br></li>
+                                    <li>Worked with PM's to provide project scope definition, milestones and detail &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the deliverables and authored technical documentation for projects &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;executed.</li>
+                                    
+
+                                </p>
+                                <br>
+
+                                <h5 class="text-uppercase font-staat font-size-20 pb-"> Flexity Solutions </h5>
+                                <p class="font-ram font-size-16 text-muted pb-0"> Solutions Integrator &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;January 2018 - June 2020</p>
+                                <p class="font-ram font-size-16 text-black-50 pb-0">
+                                    <h5 class="font-ram font-size-16 font-size-16 text-muted"><li>
+                                        Developed architectural designs for 3-tier application, including front-end, &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;middle-tier, and back-end components, utilizing cloudnative services &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ensuring High Availability, Fault Tolerance and scalability of application on &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;AWS and Azure cloud.<br></li>
+                                    <li>Implemented vSphere infrastructure deployments with High Availability &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and Fault Tolerance, integrating storage solutions.<br></li>
+                                    
+                                </p>
+                                <br>
+                                <h5 class="text-uppercase font-staat font-size-20 pb-"> IBM Datacenter </h5>
+                                <p class="font-ram font-size-16 text-muted pb-0"> Datacenter Technician &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;August 2016 - January 2020</p>
+                                <p class="font-ram font-size-16 text-black-50 pb-0">
+                                    <h5 class="font-ram font-size-16 font-size-16 text-muted"><li>
+                                        Monitored Infrastructure for performance, availability and security using &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;monitoring tools and on-call rotation.<br></li>
+                                    <li>Troubleshooted hardware and software issues with SLAs and ticketing &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;system on approx. 30-40 tickets.<br></li>
+                                    <li>Planned and managed capacity including power consumption, cooling &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;requirements and resource utilization.</li><br>
+                                    </p>
+                                    <h5 class="text-uppercase font-staat font-size-20 pb-"> SEER Pvt. Inc </h5>
+                                <p class="font-ram font-size-16 text-muted pb-0"> Network Technician & Support  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   September 2010 - November 2011</p>
+                                <p class="font-ram font-size-16 text-black-50 pb-0">
+                                    <h5 class="font-ram font-size-16 font-size-16 text-muted"><li>
+                                        Installed and configured networking components.<br></li>
+                                    <li>Managed security operations for 50 computers in network, related systems &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;and maintenance protocols.<br></li>
+                                    
+                    </div>       
+                </section>
+                <!-- #work -->
+
+
+                <!--footer-->
+                <footer id="footer" class="pt-5 px-3">
+                    <div id="contact_us">
+                        <div class="py-3 px-2">
+                            <h5 class="text-uppercase font-os font-size-16 text-muted">Location</h5>
+                            <h1 class="text-uppercase font-staat font-size-34">Contact Me</h1>
+                        </div>
+                        <div class="row py-5">
+                            <div class="col-sm-4 pl-4">
+                                <h6 class="text-uppercase font-ram font-size-16 text-dark">Jashan Sandhu</h6>
+                                <p class="font-ram font-size-16 text-black-50">ADDRESS: Brampton, ON
+                                    Canada.</p>
+                            </div>
+                            <div class="col-sm-7 py-2 px-2">
+                                <h6 class="text-uppercase font-ram font-size-16">Get in touch</h6>
+                                <form class="py-3" method="POST" data-netlify="true">
+                                    <div class="row">
+                                        <div class="col">
+                                            <input type="text" name="Name" class="form-control" placeholder="Name">
+                                        </div>
+                                        <div class="col">
+                                            <input type="email" name="Email" class="form-control" placeholder="Email">
+                                        </div>
+                                    </div>
+                                    <textarea name="message" id="" cols="30" rows="3" class="form-control my-4"
+                                        placeholder="Message"></textarea>
+                                    <button type="submit" class="btn btn-dark">Say Hello!</button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row bg-light py-5">
+                            <div class="col-sm-4 my-5 text-center">
+                                <h6 class="font-ram font-size-16 text-black-50">&copy;2024 Jashan. All rights reserved
+                                </h6>
+                            </div>
+        
+                            <div class="social-icons col-sm-4 my-4 text-center">
+                                <a href="https://www.linkedin.com/in/jashan-sandhu/" target="blank">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                                <a href="https://github.com/jsandhu0780" target="blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://twitter.com/jashan__sandhu" target="blank">
+                                    <i class="fab fa-twitter"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js"
+        integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>
+
+    <script src="./vendor/typed/typed.min.js"></script>
+
+    <script src="./index.js"></script>
+</body>
+
+</html>
